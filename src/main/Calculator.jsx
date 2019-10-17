@@ -52,7 +52,7 @@ export default class Calculator extends Component {
 
             this.setState({
                 displayValue: values[0],
-                operation: equals ? null : this.state.operation,
+                operation: equals ? null : operation,
                 currentIndex: equals ? 0 : 1,
                 clearDisplay: !equals,
                 values
